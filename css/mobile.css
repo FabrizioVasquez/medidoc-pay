@@ -1,0 +1,49 @@
+@media ( max-width: 800px){
+    .item:nth-of-type(6){
+        height: auto;
+    }
+    .item:nth-of-type(7){
+        height: auto;
+    }
+
+    .formas-pago{
+        display: block;
+        height: auto;
+
+
+    }
+    .formas-pago .pago-paypal .data_name{
+        width: 60%;
+        margin: 15px auto;
+        font-size: 12px;
+        font-size: 16px;
+        display: block;
+        border-radius: 5px;
+        border: 0;
+    }
+    .formas-pago .pago-paypal .data_email,
+    .formas-pago .pago-paypal .data_telefono{
+        width: 40%;
+        margin: 15px auto;
+        font-size: 12px;
+        font-size: 16px;
+        display: block;
+        border-radius: 5px;
+        border: 0;
+
+    }
+
+
+    .formas-pago .pago-paypal{
+        display: inline;
+    }
+
+    .formas-pago .pago-paypal form input .paypal-img{
+        width: auto;
+        padding: auto;
+        justify-content: center;
+
+    }
+
+
+}
