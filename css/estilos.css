@@ -181,7 +181,6 @@ background: linear-gradient(0deg, rgba(101,51,153,1) 0%, rgba(40,98,144,1) 37%, 
 }
 
 .formas-pago .pago-paypal form label{
-
     color:#7d8994;
     margin: 10px;
     font-size: 16px;
@@ -189,10 +188,10 @@ background: linear-gradient(0deg, rgba(101,51,153,1) 0%, rgba(40,98,144,1) 37%, 
 
 .paypal-img{
     width: 100%;
-    max-width: 150px;
+    max-width: 130px;
     display: flex;
-
     text-align: center;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -200,21 +199,25 @@ background: linear-gradient(0deg, rgba(101,51,153,1) 0%, rgba(40,98,144,1) 37%, 
     text-align: center;
 }
 
+.imagen-pago-visa-mastercard{
+    margin-bottom: 40px;
+}
 
-
-.pago-visa-mastercard button{
+.pago-visa-mastercard a{
     font-family: 'Titillium Web', sans-serif;
     width: 200px;
-    border: 0;
-    margin-top: 10px;
+    text-decoration: none;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 50px;
     font-size: 18px;
     color: #fff;
     background-color: #2364d2;
     box-shadow: 2px 2px 2px 0px rgba(0,85,212,0.4);
     cursor: pointer;
 }
+
+
+
 
 
 
