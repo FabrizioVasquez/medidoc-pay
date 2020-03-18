@@ -188,7 +188,7 @@ background: linear-gradient(0deg, rgba(101,51,153,1) 0%, rgba(40,98,144,1) 37%, 
 
 .paypal-img{
     width: 100%;
-    max-width: 130px;
+    max-width: 150px;
     display: flex;
     text-align: center;
     padding: 20px;
